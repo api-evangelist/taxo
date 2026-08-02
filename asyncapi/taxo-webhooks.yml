@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://taxo.co/ec/productos/taxo-api
+docs: https://docs.taxo.ws/getting-started
+spec_type: Webhooks
+note: >-
+  Taxo API documents asynchronous webhooks (no published AsyncAPI document was
+  found). This captures the webhook surface for the electronic-invoicing product:
+  notifications delivered when a document changes authorization status at the SRI.
+events:
+- name: document.authorization.status
+  description: >-
+    Asynchronous notification of a document's authorization status change from
+    Ecuador's SRI (e.g. authorized / rejected) after submission.
+  delivery: webhook (HTTP callback)
+  source: https://taxo.co/ec/productos/taxo-api
+subjects:
+- invoices (facturas)
+- credit-notes (notas de crédito)
+- retentions (retenciones)

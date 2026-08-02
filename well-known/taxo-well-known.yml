@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+host: https://taxo.co
+note: >-
+  No /.well-known/ discovery documents are published on taxo.co (all probed
+  paths returned 404). A real /llms.txt IS published and is captured verbatim at
+  llms/taxo-llms.txt. api.taxo.co is a serverless backend with no security.txt.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other:
+- path: /llms.txt
+  status: 200
+  file: ../llms/taxo-llms.txt
+- path: /sitemap.xml
+  status: 200
+- path: /robots.txt
+  status: 200

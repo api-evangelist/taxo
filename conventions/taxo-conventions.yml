@@ -1,0 +1,44 @@
+generated: '2026-07-21'
+method: searched
+source: https://taxo.co/ec/productos/taxo-api
+docs: https://docs.taxo.ws/getting-started
+note: >-
+  Cross-cutting request/response semantics for the Taxo API (white-label
+  electronic invoicing / SRI integration). Captured from the product page and
+  developer documentation; no public OpenAPI spec was discoverable.
+authentication:
+  style: oauth2-bearer
+  detail: OAuth 2.0 (access + refresh tokens); bearer token / API key on requests.
+  ref: authentication/taxo-authentication.yml
+versioning:
+  scheme: uri-path
+  current: v1
+  example: https://api.taxo.ec/v1/
+formats:
+  request:
+  - application/json
+  documents:
+  - XML
+  - JSON
+  - PDF
+webhooks:
+  supported: true
+  style: asynchronous
+  detail: >-
+    Asynchronous webhook notifications for document authorization status
+    (SRI acceptance/rejection). See asyncapi/taxo-webhooks.yml.
+  ref: asyncapi/taxo-webhooks.yml
+resilience:
+  detail: Automatic retry logic when the SRI backend is unavailable.
+idempotency:
+  supported: unknown
+  note: >-
+    No idempotency-key header or contract is documented on the public product
+    page or docs; not asserted. (No `Idempotency` pointer emitted.)
+rate_limiting:
+  supported: unknown
+  note: Rate-limit signaling is not documented on the public surface.
+sla:
+  uptime_target: 99.9%
+  latency_target: <2s
+  source: https://taxo.co/ec/productos/taxo-api

@@ -1,8 +1,29 @@
 aid: taxo
 name: TAXO
-description: TAXO is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Taxo (Contadores del Futuro) is an AI-powered tax and accounting automation
+  platform for accountants and firms (despachos) in Ecuador and Mexico, used by
+  2,000+ practices. It automates fiscal work across two regional hubs: Ecuador
+  (integrated with the SRI) and Mexico (integrated with the SAT). Products
+  include bulk invoice/CFDI download bots, AI-assisted tax declarations,
+  electronic invoicing (facturación electrónica / CFDI 4.0 timbrado), invoicing
+  by WhatsApp, batch and mass issuance, and white-label REST APIs (Taxo API,
+  SRI API, SAT API) for embedding electronic invoicing and tax-authority queries
+  into fintechs, e-commerce, ERPs and marketplaces. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/taxo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/257114fb-6f8f-4ec9-b1ae-795da7ce8772
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,15 +32,88 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Accounting
+- Tax
+- Fintech
+- Electronic Invoicing
+- Facturación Electrónica
+- CFDI
+- SRI
+- SAT
+- Artificial Intelligence
+- Ecuador
+- Mexico
+- API
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: Taxo API (Ecuador)
+  description: >-
+    White-label REST API for electronic invoicing integrated with Ecuador's SRI:
+    issue invoices, credit notes and retentions as JSON, with OAuth 2.0 auth,
+    asynchronous webhooks for authorization status, and automatic retry when the
+    SRI is unavailable.
+  humanURL: https://taxo.co/ec/productos/taxo-api
+  baseURL: https://api.taxo.ec/v1/
+  tags:
+  - Electronic Invoicing
+  - SRI
+  - Ecuador
+  - REST
+  properties:
+  - type: Documentation
+    url: https://docs.taxo.ws/getting-started
+  - type: GettingStarted
+    url: https://docs.taxo.ws/getting-started
+  - type: Authentication
+    url: authentication/taxo-authentication.yml
+  - type: Webhooks
+    url: asyncapi/taxo-webhooks.yml
 common:
 - type: Website
   url: https://taxo.co
+- type: DeveloperPortal
+  url: https://docs.taxo.ws
+- type: Documentation
+  url: https://docs.taxo.ws/getting-started
+- type: APIReference
+  url: https://docs.taxo.ws
+- type: GettingStarted
+  url: https://docs.taxo.ws/getting-started
+- type: Blog
+  url: https://taxo.co/ec/blog
+- type: Support
+  url: https://taxo.co/ec/ayuda
+- type: SignUp
+  url: https://app.taxo.co
+- type: TermsOfService
+  url: https://taxo.co/ec/terminos
+- type: PrivacyPolicy
+  url: https://taxo.co/ec/privacidad
+- type: LLMsTxt
+  url: llms/taxo-llms.txt
+- type: Authentication
+  url: authentication/taxo-authentication.yml
+- type: Conventions
+  url: conventions/taxo-conventions.yml
+- type: Webhooks
+  url: asyncapi/taxo-webhooks.yml
+- type: MCPServer
+  url: mcp/taxo-mcp.yml
+- type: Conformance
+  url: conformance/taxo-conformance.yml
+- type: Lifecycle
+  url: lifecycle/taxo-lifecycle.yml
+- type: DomainSecurity
+  url: security/taxo-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1

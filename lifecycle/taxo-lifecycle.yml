@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: https://taxo.co/ec/productos/taxo-api
+docs: https://docs.taxo.ws/getting-started
+versioning:
+  scheme: uri-path
+  current: v1
+  docs: https://docs.taxo.ws/getting-started
+sla:
+  uptime_target: 99.9%
+  latency_target: <2s
+  source: https://taxo.co/ec/productos/taxo-api
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+  note: No deprecation/sunset policy was found on the public surface.
+status_page: null
+status_page_note: >-
+  No status page found (status.taxo.co does not resolve; no status link on the
+  product or docs pages). No StatusPage pointer emitted.
+deprecated_operations: []

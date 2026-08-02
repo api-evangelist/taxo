@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.taxo.ws/getting-started
+docs: https://docs.taxo.ws/getting-started
+note: >-
+  No public OpenAPI specification was discoverable; the auth model below is
+  captured from the Taxo API product page (https://taxo.co/ec/productos/taxo-api)
+  and the developer documentation at docs.taxo.ws. api.taxo.co is a serverless
+  backend that returns JSON without a public spec.
+summary:
+  types:
+  - oauth2
+  - http
+  oauth2_flows:
+  - authorizationCode
+  api_key_in: []
+schemes:
+- name: OAuth2
+  type: oauth2
+  description: >-
+    OAuth 2.0 with access and refresh tokens, documented for the Taxo API
+    white-label electronic-invoicing product.
+  flows:
+  - flow: authorizationCode
+  sources:
+  - https://taxo.co/ec/productos/taxo-api
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  description: >-
+    Bearer token presented as an API key on requests (documented as "Bearer
+    token via API Key" on the Taxo API product page).
+  sources:
+  - https://taxo.co/ec/productos/taxo-api

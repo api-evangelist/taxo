@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://taxo.co
+docs: https://docs.taxo.ws/getting-started
+note: >-
+  Cross-cutting / industry standards the Taxo platform conforms to. Taxo is an
+  authorized electronic-invoicing provider integrating with Ecuador's SRI and
+  Mexico's SAT; those are regulatory e-invoicing regimes, captured here.
+standards:
+- id: sri-facturacion-electronica
+  name: Ecuador SRI electronic invoicing (facturación electrónica)
+  conforms: true
+  evidence: >-
+    Taxo API and Taxo Factura issue SRI-authorized electronic documents
+    (facturas, notas de crédito, retenciones) for Ecuador.
+  source: https://taxo.co/ec/productos/taxo-api
+- id: sat-cfdi-4.0
+  name: Mexico SAT CFDI 4.0 timbrado
+  conforms: true
+  evidence: >-
+    Taxo Factura MX and Taxo Timbre provide CFDI 4.0 stamping (timbrado) for
+    Mexico's SAT.
+  source: https://taxo.co/mx/productos/taxo-factura
+- id: oauth2
+  name: OAuth 2.0
+  conforms: true
+  evidence: Taxo API documents OAuth 2.0 with access and refresh tokens.
+  source: https://taxo.co/ec/productos/taxo-api
+- id: webhooks
+  name: Asynchronous webhooks
+  conforms: true
+  evidence: Taxo API delivers asynchronous webhook notifications for authorization status.
+  source: https://taxo.co/ec/productos/taxo-api
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public error schema found; problem+json not confirmed.

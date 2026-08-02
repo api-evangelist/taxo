@@ -1,0 +1,53 @@
+# Taxo
+
+> Automatización fiscal y contable con IA para contadores y despachos en Ecuador y México. Descarga de facturas SRI/SAT, facturación electrónica, declaraciones y conciliación, todo en una sola plataforma.
+
+Taxo opera dos hubs regionales:
+- **Ecuador (/ec)** — integrado al SRI: descarga de facturas, declaraciones, facturación electrónica.
+- **México (/mx)** — integrado al SAT: descarga de CFDIs, timbrado, retenciones y declaraciones.
+
+## Páginas principales
+
+- [Inicio](/): Portal global de Taxo con selector de país.
+- [Taxo Ecuador](/ec): Hub de productos para contadores en Ecuador.
+- [Taxo México](/mx): Hub de productos para contadores en México.
+
+## Productos Ecuador
+
+- [Taxo Impuestos](/ec/productos/taxo-impuestos): Declaraciones SRI asistidas con IA.
+- [SRI BOT](/ec/productos/taxo-bot): Robot que descarga facturas del SRI cada noche.
+- [Taxo Factura](/ec/productos/taxo-factura): Facturación electrónica para Ecuador.
+- [Taxo Factura Software](/ec/productos/taxo-factura-software): Software de facturación para despachos.
+- [Taxo Books](/ec/productos/taxo-books): Sistema contable en la nube (próximamente).
+- [Taxo WhatsApp](/ec/productos/taxo-whatsapp): Factura por WhatsApp.
+- [Taxo API](/ec/productos/taxo-api): API white-label de facturación electrónica.
+- [Taxo Lote](/ec/productos/taxo-lote): Facturación por lotes.
+- [Taxo Masiva](/ec/productos/taxo-masiva): Emisión masiva de comprobantes.
+- [SRI API](/ec/productos/sri-api): API de consulta y descarga del SRI.
+- [Facturación Ecuador](/ec/facturacion): Suite de soluciones de facturación.
+
+## Productos México
+
+- [Taxo Impuestos MX](/mx/productos/taxo-impuestos): Declaraciones SAT con IA.
+- [SAT BOT](/mx/productos/taxo-bot): Robot que descarga CFDIs del SAT cada noche.
+- [Taxo Factura MX](/mx/productos/taxo-factura): Facturación CFDI 4.0.
+- [Taxo Factura Software MX](/mx/productos/taxo-factura-software): Software de facturación.
+- [Taxo Timbre](/mx/productos/taxo-timbre): Timbrado CFDI ilimitado.
+- [Taxo WhatsApp MX](/mx/productos/taxo-whatsapp): Factura por WhatsApp.
+- [Taxo API MX](/mx/productos/taxo-api): API white-label de timbrado.
+- [Facturación México](/mx/facturacion): Suite de soluciones de facturación.
+
+## Recursos
+
+- [Blog Ecuador](/ec/blog): Artículos sobre tributación SRI, IA y automatización contable.
+- [Centro de Ayuda Ecuador](/ec/ayuda): Documentación y guías para Ecuador.
+- [Centro de Ayuda México](/mx/ayuda): Documentación y guías para México.
+- [Contacto Ecuador](/ec/contacto): Habla con un especialista en Ecuador.
+- [Contacto México](/mx/contacto): Habla con un especialista en México.
+
+## Optional
+
+- [Términos Ecuador](/ec/terminos): Términos y condiciones.
+- [Privacidad Ecuador](/ec/privacidad): Política de privacidad.
+- [Términos México](/mx/terminos): Términos y condiciones.
+- [Privacidad México](/mx/privacidad): Política de privacidad.
