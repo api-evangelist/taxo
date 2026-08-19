@@ -2,11 +2,9 @@ generated: '2026-07-21'
 method: derived
 status: candidate
 source: https://taxo.co/ec/productos/taxo-api
-note: >-
-  No official hosted/remote MCP server was found for Taxo. This is a CANDIDATE
-  tool list derived from the operations documented on the Taxo API product page
-  and developer docs (docs.taxo.ws). No public OpenAPI spec exists to bind
-  operationIds; tools map to documented REST operations.
+note: No official hosted/remote MCP server was found for Taxo. This is a CANDIDATE tool list derived from
+  the operations documented on the Taxo API product page and developer docs (docs.taxo.ws). No public
+  OpenAPI spec exists to bind operationIds; tools map to documented REST operations.
 server:
   name: taxo
   transport: http
@@ -29,3 +27,9 @@ tools:
 - name: validate_document
   description: Pre-validate document data before submission to the SRI.
   source_operation: POST /v1/validate
+deployment:
+  mode: none
+  verified: derived
+  tools: 6
+  checked: '2026-08-12'
+  source: catalog MCP census
