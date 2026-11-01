@@ -64,6 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TAXO is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Taxo (Contadores del Futuro) is an AI-powered tax and accounting automation platform for accountants and firms (despachos) in Ecuador and Mexico, used by 2,000+ practices. It automates fiscal work across two regional hubs: Ecuador (integrated with the SRI) and Mexico (integrated with the SAT). Products include bulk invoice/CFDI download bots, AI-assisted tax declarations, electronic invoicing (facturación electrónica / CFDI 4.0 timbrado), invoicing by WhatsApp, batch and mass issuance, and white-label REST APIs (Taxo API, SRI API, SAT API) for embedding electronic invoicing and tax-authority queries into fintechs, e-commerce, ERPs and marketplaces. Backed by 500 Global.
 
-Backed by: 500-global — https://taxo.co
+**Areas:** Company · Accounting · Tax · Fintech · E-Invoicing · Facturación Electrónica · CFDI · SRI · SAT · Artificial Intelligence · Ecuador · Mexico
+
+## TAXO on APIs.io
+
+Everything profiled for TAXO is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/taxo/](https://apis.io/providers/taxo/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Taxo API (Ecuador)](https://apis.io/apis/taxo/taxo-api-ecuador/) — White-label REST API for electronic invoicing integrated with Ecuador's SRI: issue invoices, credit notes and retentions as JSON, with OAuth 2.0 auth,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Taxo Webhooks](https://apis.io/asyncapis/taxo/taxo-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [taxo](https://apis.io/servers/taxo/taxo/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Taxo Authentication](https://apis.io/security/taxo/taxo-authentication/)
+- [Taxo Domain Security](https://apis.io/security/taxo/taxo-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://taxo.co)
+- [Documentation](https://docs.taxo.ws/getting-started)
+- [Getting started](https://docs.taxo.ws/getting-started)
+- [API reference](https://docs.taxo.ws)
+- [Sign up](https://app.taxo.co)
+- [Support](https://taxo.co/ec/ayuda)
+- [Blog](https://taxo.co/ec/blog)
+- [Terms of service](https://taxo.co/ec/terminos)
+- [Privacy policy](https://taxo.co/ec/privacidad)
+
+## API Evangelist rating
+
+**Kin Score 33.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 39.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 13.2 |
+
+**Agent readiness 19.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/taxo/](https://apis.io/providers/taxo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TAXO: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/taxo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
